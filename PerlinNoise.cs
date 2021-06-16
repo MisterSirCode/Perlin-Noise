@@ -2,10 +2,12 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 
-public class PerlinNoise {
+public class PerlinNoise
+{
     private long seed;
     
-    public PerlinNoise(long seed) {
+    public PerlinNoise(long seed)
+    {
         this.seed = seed;
     }
     
@@ -36,7 +38,7 @@ public class PerlinNoise {
 
     private double SmoothNoise(int x)
     {
-        return Noise(x) / 2 + Noise(x - 1) / 4 + Noise(x + 1) /4;
+        return Noise(x) / 2 + Noise(x - 1) / 4 + Noise(x + 1) / 4;
     }
     
     private double Noise(int x) 
