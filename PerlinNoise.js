@@ -3,7 +3,7 @@ class PerlinNoise {
         this.seed = seed;
     }
     
-    InitPerlinNoise(x, power, n) {
+    InitPerlinNoise(x, p, n) {
         let total = 0;
         let frequency;
         let amplitude;
