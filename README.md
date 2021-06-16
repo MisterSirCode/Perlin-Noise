@@ -1,2 +1,4 @@
 # Perlin-Noise-CS
-CSharp Perlin Noise library transcribed from raxod502/TerrariaClone (PerlinNoise.java)
+CSharp Perlin Noise library transcribed from [raxod502/TerrariaClone (PerlinNoise.java)](https://github.com/raxod502/TerrariaClone/blob/master/src/PerlinNoise.java)
+
+I made use of this library to generate surface terrain for my game "Deepworld Remastered" in the Unity Game Engine.
