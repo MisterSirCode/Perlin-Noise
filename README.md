@@ -6,5 +6,6 @@ I made use of this library to generate surface terrain for my game "Deepworld Re
 
 Current Versions:
 
+- Java (original) - [PerlinNoise.java](./PerlinNoise.java)
 - C# / Unity - [PerlinNoise.cs](./PerlinNoise.cs)
 - Javascript - [PerlinNoise.js](./PerlinNoise.js)
